@@ -42,9 +42,16 @@
 
 	margin-top: 0px;
 	padding: 0px;
+	border-radius: 5px;
 	box-sizing: border-box;
 	transition-property: opacity, top;
 	transition-duration: 0.3s;
+}
+
+.drop-down-link-container {
+	padding: 2px;
+	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 .link-circle {
