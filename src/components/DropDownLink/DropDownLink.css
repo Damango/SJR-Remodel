@@ -19,16 +19,21 @@
 	margin-top: 5px;
 	top: 70px;
 	box-shadow: 0px 0px 1px 1px rgb(49, 49, 49);
+	z-index: 5;
 }
 
 .drop-down-button {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	background-color: white;
+
 	border-style: none;
 	padding: 10px 12px;
 	font-size: 20px;
+	background-color: transparent;
+	color: white;
+	border-bottom: 4px solid white;
+	height: 100%;
 }
 
 .drop-down-menu-container {
@@ -39,13 +44,14 @@
 	background-color: white;
 	width: 0px;
 	height: 0px;
+	z-index: 5;
 
 	margin-top: 0px;
 	padding: 0px;
 	border-radius: 5px;
 	box-sizing: border-box;
 	transition-property: opacity, top;
-	transition-duration: 0.3s;
+	transition-duration: 0.4s;
 }
 
 .drop-down-link-container {
